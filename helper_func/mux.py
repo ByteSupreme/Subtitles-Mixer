@@ -131,6 +131,3 @@ async def hardmux_vid(vid_filename, sub_filename, msg):
 
     time.sleep(2)
     return output
-    
-    time.sleep(2)
-    return output
