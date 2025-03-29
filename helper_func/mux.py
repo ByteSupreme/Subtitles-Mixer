@@ -104,7 +104,7 @@ async def hardmux_vid(vid_filename, sub_filename, msg):
         '-i', vid,
         '-vf', f"subtitles='{sub}'",
         '-c:v', 'libx264',  # Ensures compatibility & efficiency
-        '-crf', '18',  # Visually lossless quality
+        '-crf', '27',  # Visually lossless quality
         '-preset', 'slow',  # Better compression without loss
         '-c:a', 'copy',  # Preserve original audio
         '-map', '0:v:0',
